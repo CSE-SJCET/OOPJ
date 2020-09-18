@@ -19,7 +19,7 @@ public class ScopeDemo {
 			System.out.println("x and y: " + x + " " + y);
 			x = y * 2;
 		}
-		//y = 100; // Error! y not known here
+	//	y = 100; // Error! y not known here
 		// x is still known here.
 		System.out.println("x is " + x);
 	}
